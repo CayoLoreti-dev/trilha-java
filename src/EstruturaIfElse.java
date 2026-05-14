@@ -32,6 +32,8 @@ public class EstruturaIfElse {
         else {
             System.out.println("engole cuspe");
         }
+        String mensagem = (temDinheiro) ? "Pede ifood" : "come reboco de parede";
+        System.out.println(mensagem);
     }
 
 }
